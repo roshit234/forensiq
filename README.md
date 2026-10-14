@@ -1,17 +1,12 @@
-# forensiq
+### 🔬 [ForensIQ — Digital Forensic Field Assistant](https://github.com/roshit234/forensiq)
 
-A new Flutter project.
+An **offline-first Flutter application** designed to support presumptive drug testing through image-based color analysis and cryptographic evidence logging.
 
-## Getting Started
+**Key Features**
+- 📷 **Camera-Based Evidence Capture:** Direct camera capture with image-quality validation, blur detection, and exposure checks.
+- 🎨 **Color Calibration:** Reference-chart sampling and per-channel Ordinary Least Squares (OLS) linear regression to compensate for lighting and camera color variations.
+- 🧪 **Colorimetric Classification:** Uses RGB Euclidean color distance and deterministic rules to classify observed reaction colors.
+- 🔐 **Evidence Integrity:** SHA-256 image hashing with associated timestamps, location data, and locally stored evidence records.
+- 📱 **Offline-First Design:** Supports field workflows without requiring continuous internet connectivity.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Tech Stack:** Flutter • Dart • Image Processing • Linear Regression • RGB Color Analysis • SHA-256
